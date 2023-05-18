@@ -1,0 +1,9 @@
+rm(list=ls())
+mu=0.506;
+sigm= 0.004;
+sqrt_nob= sqrt(10)
+z=1.96
+x=pnorm(mu,sigm);x
+confidense_interval_u= mu + (z*(sigm/sqrt_nob)); confidense_interval_u
+confidense_interval_l= mu - (z*(sigm/sqrt_nob)); confidense_interval_l
+interval=c(confidense_interval_l,confidense_interval_u);interval
